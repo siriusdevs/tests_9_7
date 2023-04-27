@@ -17,6 +17,8 @@ do
         echo "ожидаемое значение: $expected"
         echo "тест провален"
         exit 1
+    else
+        echo "$arg1 + $arg2 = $result, OK"
     fi
 done < $test_data
 echo "тест пройден успешно"
